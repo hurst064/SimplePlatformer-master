@@ -17,6 +17,22 @@ public class UFOController : MonoBehaviour {
 	void Update () {
 
 		//Add Movement Code Here
-		
-	}
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            Debug.Log("you pressed the d key");
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Debug.Log("you pressed the w key");
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Debug.Log("you pressed the a key");
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Debug.Log("you pressed the s key");
+        }
+
+    }
 }
