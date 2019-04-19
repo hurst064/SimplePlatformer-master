@@ -5,14 +5,22 @@ using UnityEngine;
 public class PickUpCollectable : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
         
     }
 
     // Update is called once per frame
-    void Update()
+    void Update(){
+      
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if(other.tag == "Player")
+        { 
+        //Play Sound
+        //Add to Player score or powerup
+        Destroy(gameObject);
+        }
     }
 }
