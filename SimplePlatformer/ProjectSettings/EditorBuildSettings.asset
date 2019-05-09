@@ -4,4 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MainMenu.unity
+    guid: 9186db253f0d849758f066c6662bc9c6
+  - enabled: 1
+    path: Assets/Maddie's Level.unity
+    guid: fed8f9a3b46a645c69d73c0af9175805
+  - enabled: 1
+    path: Assets/Lexie's Level.unity
+    guid: 0045b1b0a13174d6d9ea11c5231c784b
+  - enabled: 1
+    path: Assets/Level 00.unity
+    guid: dfce171a47e674ecbbad8283010d8b73
+  - enabled: 1
+    path: Assets/Laura's Level.unity
+    guid: 4ff2aa6380705466aacc0a6b19ab542a
+  m_configObjects: {}
