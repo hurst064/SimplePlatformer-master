@@ -10843,6 +10843,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2938394073845129379, guid: 7082a7464860d429aa2ddfa4ff405cdd,
+        type: 3}
+      propertyPath: LevelToLoad
+      value: Maddie's Level
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7082a7464860d429aa2ddfa4ff405cdd, type: 3}
 --- !u!1001 &1617843917
