@@ -133,3 +133,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 15
   theRB2D: {fileID: 0}
+  bulletDamage: 1
